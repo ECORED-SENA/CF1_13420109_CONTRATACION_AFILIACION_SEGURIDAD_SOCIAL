@@ -29,6 +29,8 @@ export default {
 </script>
 
 <style lang="sass">
+.banner-interno__fondo
+  background-image: url(assets/curso/fondo_temas.svg) !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: #fff !important
 .curso-main-container > .container
@@ -36,5 +38,9 @@ export default {
 .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
   padding-bottom: 0px !important
 .titulo-segundo:after
-  border-left-color: #F55D8B !important
+  border-left-color: #16697A !important
+.titulo-principal__numero
+  background-color: #16697A !important
+.titulo-principal__numero span
+  color: white !important
 </style>

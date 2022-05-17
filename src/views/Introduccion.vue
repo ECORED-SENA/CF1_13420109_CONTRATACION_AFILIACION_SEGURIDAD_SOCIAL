@@ -2,28 +2,26 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
     .titulo-principal
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
+
+    p(data-aos="fade-up") En las empresas, indistintamente de la actividad económica que desarrollen, existe un proceso que se encarga del ingreso del personal para que realice una función específica de acuerdo con la necesidad que se tenga. En unas organizaciones el área o dependencia que realiza este proceso se llama gestión humana, en otras, recursos humanos o talento humano, entre otros nombres; lo que cabe resaltar, es que en estas áreas se realiza una gestión bastante importante que se llama contratación y afiliación en la cual después de un proceso de preselección, se selecciona la persona a #[strong(style="padding:5px;background-color:#D0EAE2;") contratar y afiliar a la seguridad social.]
+
+    .col-md-8.m-auto.mt-5
+      .p-4.row(style="background-color:#0C0A3E;border-radius:20px;")
+        .col-md-2
+          figure.text-center.m-auto
+            img(src="@/assets/curso/introduccion/1.svg" style="display:inline;max-width:60px;" data-aos="fade-left")
+        .col-md-10(style="place-self:center;")
+          p.mb-0.text-white(data-aos="fade-right") En el siguiente video se pueden observar las generalidades y objeto de estudio de esta unidad temática en relación con la contratación y vinculación laboral:
     
-    figure.mb-5
+    figure.mt-5.col-md-10.m-auto
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
-    
-    p.mb-5 La necesidad de mitigar la pandemia por COVID-19 ha obligado a la comunidad científica internacional, a desarrollar una serie de investigaciones y desarrollos tendientes a presentar una vacuna para hacerle frente a esta enfermedad que aumenta día a día su morbi mortalidad en Colombia. Es así, como en diciembre de 2020, la comunidad científica presenta los resultados de varios desarrollos de vacunas, que ofrecen eficacia y seguridad, respaldados por estudios clínicos rigurosos.
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    figure.mb-5
-      img(src="@/assets/curso/banner-intro.jpg", alt="Texto que describa la imagen")
-      figcaption Imagen 1. Vacunación
-
-    p.mb-0 La llegada de nuevas vacunas al país supone un reto para el talento humano en salud responsable de la vacunación y desarrollar habilidades para ofrecer una orientación oportuna y segura a las personas objeto de la vacuna.
-      br
-      br
-      | En ese orden de ideas, este componente formativo guía al aprendiz hacia la identificación de los aspectos normativos, técnicos y operativos de la vacunación contra COVID19 en Colombia y de las generalidades de la infección por SARS-2 COVID 19.
 
 </template>
 
