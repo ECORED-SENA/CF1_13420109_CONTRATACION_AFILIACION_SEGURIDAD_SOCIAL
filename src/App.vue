@@ -37,6 +37,8 @@ export default {
   overflow-x: clip !important
 .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
   padding-bottom: 0px !important
+  padding-right: 0px !important
+  padding-top: 5px !important
 .titulo-segundo:after
   border-left-color: #16697A !important
 .titulo-principal__numero

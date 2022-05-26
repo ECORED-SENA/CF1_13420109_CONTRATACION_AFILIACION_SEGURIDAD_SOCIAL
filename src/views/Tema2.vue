@@ -64,7 +64,7 @@
 
     p.mt-5(data-aos="fade-up") En Colombia los contratos laborales están regidos bajo la normatividad del Código Sustantivo del Trabajo del artículo 22 al 75. En este documento se pueden consultar los diferentes tipos de contratación y características. #[strong(style="padding:5px;background-color:#D0EAE2;") En el proceso de vinculación de personal en Colombia se utilizan los contratos por tiempo de duración, a saber:] 
 
-    .row.mt-5.col-md-9.m-auto.p-5(style="background-color:#16697A;border-radius:10px")
+    .row.mt-5.col-md-9.m-auto.pt-5.ps-5.pe-5(style="background-color:#16697A;border-radius:10px")
       .col-md-6(style="place-self:center;")
         ul.lista-ul
           li.text-white(data-aos="fade-up")
@@ -80,8 +80,8 @@
             i.fas.fa-check(style="color:#FFA400 !important;")
             | Contrato ocasional, accidental o transitorio.
       .col-md-6(style="place-self:center;")
-        figure.text-center.m-auto
-          img(src="@/assets/curso/tema2/6.svg" data-aos="fade-right" style="max-width:300px;display:inline")
+        figure.text-center.m-auto.justify-content-center
+          img.m-auto(src="@/assets/curso/tema2/6.svg" data-aos="fade-right" style="max-width:300px;")
 
     p.mt-5(data-aos="fade-up") Seguramente en algún momento alguien es contratado por alguna de las modalidades anteriores, pero #[strong(style="padding:5px;background-color:#D0EAE2;") ¿cómo se diferencian y qué características tienen?] En el siguiente cuadro se presenta la respuesta a esta pregunta:
 
@@ -91,9 +91,9 @@
       table
         thead(style="border-top:none;")
           tr
-            th.p-4(style="background-color:#FFA400;") Contrato laboral
-            th.p-4(style="background-color:#FFA400;") Tiempo
-            th.p-4(style="background-color:#FFA400;") Regulación
+            th.p-4(style="background-color:#FFA400;font-size:18px;") Contrato laboral
+            th.p-4(style="background-color:#FFA400;font-size:18px;") Tiempo
+            th.p-4(style="background-color:#FFA400;font-size:18px;") Regulación
         tbody
           tr
             td.p-4(style="border:0px;background-color:#EBEBEB;border-right:1px white solid;") Contrato a término fijo.
@@ -165,7 +165,7 @@
 
     .row.mt-5
       .col-md-6
-        figure
+        figure.mb-5.mb-md-0
           img(src="@/assets/curso/tema2/8.svg" data-aos="fade-right")
       .col-md-6(style="place-self:center;")
         .cajon-b.color-primario.p-4
@@ -241,7 +241,7 @@
         .cajon-b.color-primario.pt-4.pb-4
           p.mb-0(data-aos="fade-left") También existen plataformas, algunas por cobrar y otras del Ministerio de Trabajo, con las bases de los contratos que cumplen con la normatividad legal vigente, pero su uso depende netamente de las decisiones y conocimientos de los expertos en la organización.
       .col-md-4
-        figure.text-center
+        figure.text-center.mt-md-0.mt-5
           img(src="@/assets/curso/tema2/13.svg" data-aos="fade-left")
 
     br
@@ -250,13 +250,13 @@
         .h4.mb-0(data-aos="fade-up") Recomendación:
         p(data-aos="fade-up") sea el manejo que se le dé en la organización a los contratos es importante estar actualizando los modelos que se tienen por un abogado laboral para asegurar el cumplimiento legal y evitar sanciones o demandas.
 
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mt-5.cont_bloque1
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
-        .col-lg-8
-          .bloque-texto-a__texto.p-5
-            p.mb-0(data-aos="fade-up") #[strong Una vez definido el tipo de contrato laboral requerido], se procede a dar continuidad al proceso de contratación en el cual se llama al candidato seleccionado y se le cita para firma de contrato, solicitándole la documentación establecida por la organización para tal fin. Se debe tener en cuenta que una vez se firme el contrato, las dos partes deben quedar con una copia del mismo.
 
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(style="background-color:#92BFB1;")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema2/14.svg')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0(data-aos="fade-up") #[strong Una vez definido el tipo de contrato laboral requerido], se procede a dar continuidad al proceso de contratación en el cual se llama al candidato seleccionado y se le cita para firma de contrato, solicitándole la documentación establecida por la organización para tal fin. Se debe tener en cuenta que una vez se firme el contrato, las dos partes deben quedar con una copia del mismo.
 
 
 

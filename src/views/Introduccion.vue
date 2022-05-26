@@ -16,7 +16,7 @@
           figure.text-center.m-auto
             img(src="@/assets/curso/introduccion/1.svg" style="display:inline;max-width:60px;" data-aos="fade-left")
         .col-md-10(style="place-self:center;")
-          p.mb-0.text-white(data-aos="fade-right") En el siguiente video se pueden observar las generalidades y objeto de estudio de esta unidad temática en relación con la contratación y vinculación laboral:
+          p.mb-0(data-aos="fade-right" style="color:#D0EAE2;") En el siguiente video se pueden observar las generalidades y objeto de estudio de esta unidad temática en relación con la contratación y vinculación laboral:
     
     figure.mt-5.col-md-10.m-auto
       .video

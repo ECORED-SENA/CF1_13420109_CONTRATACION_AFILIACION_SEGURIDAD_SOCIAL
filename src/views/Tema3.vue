@@ -9,17 +9,17 @@
 
     p(data-aos="fade-up") Antes de iniciar el proceso de afiliación a seguridad social se debe entender su composición y la responsabilidad de las empresas y del Estado por garantizar este derecho que es irrenunciable por parte de las personas o trabajadores.
 
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mt-5.cont_bloque2
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
-        .col-lg-8
-          .bloque-texto-a__texto.p-5
-            p.mt-4.mb-4(data-aos="fade-up") Normalmente cuando se habla de Seguridad Social en Colombia se asocia a la salud y el derecho que tienen las personas a acceder a estos servicios, ya sea porque paga, cotiza o recibe este servicio de forma subsidiada del Estado, y lo que se debe tener claro es que la salud es un derecho fundamental. Pero, ¿qué es el sistema de seguridad social?
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(style="background-color:#92BFB1;")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema3/1.svg')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mt-4.mb-4(data-aos="fade-up") Normalmente cuando se habla de Seguridad Social en Colombia se asocia a la salud y el derecho que tienen las personas a acceder a estos servicios, ya sea porque paga, cotiza o recibe este servicio de forma subsidiada del Estado, y lo que se debe tener claro es que la salud es un derecho fundamental. Pero, #[strong ¿qué es el sistema de seguridad social?]
 
     p.mt-5(data-aos="fade-up") #[strong(style="padding:5px;background-color:#D0EAE2;") Para responder esta pregunta lo primero que se debe conocer es que la Ley 100 de 1993] regula la seguridad social en Colombia y en la misma se establecen los mecanismos de acción y gestión frente a cualquier situación que involucre la prestación de los servicios de salud, pensión, riesgos laborales y servicios complementarios como componentes de la misma. De igual manera, ofrece una definición de la Seguridad Social en Colombia:
 
     .cajon.color-acento-botones.p-4.mt-5(style="background-color:#FFF5E2;")
-      p(data-aos="fade-up") La Seguridad Social Integral es el conjunto de instituciones, normas y procedimientos, de que disponen la persona y la comunidad para gozar de una calidad de vida, mediante el cumplimiento progresivo de los planes y programas que el Estado y la sociedad desarrollen para proporcionar la cobertura integral de las contingencias, especialmente las que menoscaban la salud y la capacidad económica, de los habitantes del territorio nacional, con el fin de lograr el bienestar individual y la integración de la comunidad (Ley 100 de 1993, preámbulo).
+      p(data-aos="fade-up") #[strong La Seguridad Social Integral es el conjunto de instituciones, normas y procedimientos, de que disponen la persona y la comunidad para gozar de una calidad de vida, mediante el cumplimiento progresivo de los planes y programas que el Estado y la sociedad desarrollen para proporcionar la cobertura integral de las contingencias, especialmente las que menoscaban la salud y la capacidad económica, de los habitantes del territorio nacional, con el fin de lograr el bienestar individual y la integración de la comunidad (Ley 100 de 1993, preámbulo).]
 
     .row.mt-5
       .col-md-7(style="place-self:center;")
@@ -38,14 +38,14 @@
 
     p.mt-5(style="border-left:5px #16697A solid;padding:6px;" data-aos="fade-up") #[strong Tabla 2.] Afiliaciones a seguridad social según tipo de contrato
 
-    .tabla-a.color-acento-botones.mt-5 
-      table
+    .tabla-a.color-acento-botones.mt-5(style="max-width:100%;overflow-x:unset")
+      table(style="max-width:100%;overflow-x:unset")
         thead(style="border-top:none;")
           tr
-            th.p-4(style="background-color:#FFA400;") Contrato
-            th.p-4(style="background-color:#FFA400;") Tipos de Contratos
-            th.p-4(style="background-color:#FFA400;") Afiliación que debe hacer la empresa
-            th.p-4(style="background-color:#FFA400;") Nota aclaratoria
+            th.p-4(style="background-color:#FFA400;font-size:18px;") Contrato
+            th.p-4(style="background-color:#FFA400;font-size:18px;") Tipos de Contratos
+            th.p-4(style="background-color:#FFA400;font-size:18px;") Afiliación que debe hacer la empresa
+            th.p-4(style="background-color:#FFA400;font-size:18px;") Nota aclaratoria
         tbody
           tr
             td.p-4(style="border:0px;background-color:#EBEBEB;border-right:1px white solid;text-align:center;") Laboral
@@ -172,7 +172,7 @@
 
     figure.mt-5.text-center.m-auto.col-md-8
       img(src="@/assets/curso/tema3/5.svg" data-aos="fade-up")
-      figcaption.mt-3(data-aos="fade-up") #[strong Nota.] Captura de imagen tomada del portal de Ingreso ARL Positiva (https://www.positivaenlinea.gov.co/nuevo/). 
+      figcaption.mt-3(data-aos="fade-up"  style="font-weight:400;") #[strong Nota.] Captura de imagen tomada del portal de Ingreso ARL Positiva (https://www.positivaenlinea.gov.co/nuevo/). 
 
     p.mt-5(data-aos="fade-up") Es importante indicar que en estos portales se pueden realizar los siguientes trámites: reportar accidentes, descargar certificados, ingresar a capacitaciones, solicitar asesoría, mirar estado de cuenta y hacer seguimiento a los servicios y portafolio que tiene la entidad.
 
@@ -184,8 +184,8 @@
       table(style="max-width:100%;min-width:100%;")
         thead(style="border-top:none;")
           tr
-            th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;") ARL
-            th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;") Página web para afiliación
+            th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;font-size:18px;") ARL
+            th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;font-size:18px;") Página web para afiliación
         tbody
           tr
             td.p-4(style="border:0px;background-color:#fff;border:2px #92BFB1 solid;text-align:center;")
@@ -269,7 +269,7 @@
     h4.mt-5.text-center(data-aos="fade-up") Afiliación a Entidades Promotoras de Salud (EPS)
 
     .row.col-md-9.m-auto.mt-4
-      .col-md-6
+      .col-md-6.mb-4.mb-md-0
         .tarjeta-avatar-b(style="height:100%;")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/13.svg' alt='' data-aos="fade-right")
@@ -288,31 +288,31 @@
 
     .tarjeta.p-5.mt-5(style="background-color:#D0EAE2;")
       LineaTiempoC.color-acento-contenido(text-small)
-        .row(titulo="Portales Web")
+        .row.col-md-10.m-auto(titulo="Portales Web")
           .col-md-4.mb-4.mb-md-0
             figure.text-center
               img(src='@/assets/curso/tema3/15.svg', alt='' style="display:inline;max-width:250px")
           .col-md-8(style="place-self:center;")
             p Gracias a los recursos tecnológicos muchas de estas entidades promotoras de salud han migrado este proceso, de igual manera que las ARL, a sus páginas web y haciendo la actividad de afiliación más ágil. 
-        .row(titulo="Asesor EPS")
+        .row.col-md-10.m-auto(titulo="Asesor EPS")
           .col-md-4.mb-4.mb-md-0
             figure.text-center
               img(src='@/assets/curso/tema3/16.svg', alt='' style="display:inline;max-width:250px")
           .col-md-8(style="place-self:center;")
             p Estas entidades asignan un asesor para apoyar ya sea la gestión física o virtual. Es importante que el encargado del proceso de afiliación en la empresa tenga este contacto el cual puede solicitar en las líneas telefónicas o página web de cada EPS. 
-        .row(titulo="Datos de afiliación")
+        .row.col-md-10.m-auto(titulo="Datos de afiliación")
           .col-md-4.mb-4.mb-md-0
             figure.text-center
               img(src='@/assets/curso/tema3/17.svg', alt='' style="display:inline;max-width:250px")
           .col-md-8(style="place-self:center;")
             p Para esta actividad se debe tener la información completa,  como son los documentos de identificación tanto del trabajador como de sus beneficiarios, datos de residencia, información de su ARL, fondo de pensiones y salario. 
-        .row(titulo="Elección EPS")
+        .row.col-md-10.m-auto(titulo="Elección EPS")
           .col-md-4.mb-4.mb-md-0
             figure.text-center
               img(src='@/assets/curso/tema3/18.svg', alt='' style="display:inline;max-width:250px")
           .col-md-8(style="place-self:center;")
             p El trabajador, por medio de su EPS, escoge su Institución Prestadora de Servicio de Salud IPS, según la ubicación para recibir atención donde lo desee.
-        .row(titulo="Elección EPS")
+        .row.col-md-10.m-auto(titulo="Elección EPS")
           .col-md-4.mb-4.mb-md-0
             figure.text-center
               img(src='@/assets/curso/tema3/19.svg', alt='' style="display:inline;max-width:250px")
@@ -325,9 +325,9 @@
 
     p.mt-5(style="border-left:5px #16697A solid;padding:6px;" data-aos="fade-up") #[strong Figura 6.] Ingreso al portal web de Sura EPS
 
-    figure.m-auto.col-md-6.mt-4
+    figure.m-auto.col-md-5.mt-4
       img(src="@/assets/curso/tema3/20.svg" data-aos="fade-up")
-    figcaption.mt-5(data-aos="fade-up") #[strong Nota.] Captura de imagen tomada del portal Ingreso EPS Sura (https://login.sura.com/sso/servicelogin.aspx?continueTo=https%3A%2F%2Fepsapps.suramericana.com%2FSemp%2F&service=epssura). 
+    figcaption.mt-5(data-aos="fade-up" style="font-weight:400;") #[strong Nota.] Captura de imagen tomada del portal Ingreso EPS Sura (https://login.sura.com/sso/servicelogin.aspx?continueTo=https%3A%2F%2Fepsapps.suramericana.com%2FSemp%2F&service=epssura). 
     
     h5.mt-5(data-aos="fade-up") De las principales Entidades Promotoras de Salud (EPS) del país, las más utilizadas son:
 
@@ -335,8 +335,8 @@
       table(style="max-width:100%;min-width:100%;")
         thead(style="border-top:none;")
           tr
-            th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;") ARL
-            th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;") Página web para afiliación y/o consultas
+            th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;font-size:18px;") ARL
+            th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;font-size:18px;") Página web para afiliación y/o consultas
         tbody
           tr
             td.p-4(style="border:0px;background-color:#fff;border:2px #92BFB1 solid;text-align:center;")
@@ -411,7 +411,7 @@
 
     figure.m-auto.col-md-8.mt-4
       img(src="@/assets/curso/tema3/28.svg" data-aos="fade-up")
-    figcaption.mt-5(data-aos="fade-up") #[strong Nota.] Captura de pantalla tomada del portal de ingreso de la caja de compensación familiar Cafam (https://www.cafam.com.co/tx/login). 
+    figcaption.mt-5(data-aos="fade-up" style="font-weight:400;") #[strong Nota.] Captura de pantalla tomada del portal de ingreso de la caja de compensación familiar Cafam (https://www.cafam.com.co/tx/login). 
 
     .tarjeta.color-secundario.p-4.mt-5.col-md-8.m-auto(style="background-color:#0C0A3E;")
       .row.justify-content-around.align-items-center
@@ -430,8 +430,8 @@
       table(style="max-width:100%;min-width:100%;")
         thead(style="border-top:none;")
           tr
-            th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;") CCF
-            th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;") Página web para afiliación y/o consultas
+            th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;font-size:18px;") CCF
+            th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;font-size:18px;") Página web para afiliación y/o consultas
         tbody
           tr
             td.p-4(style="border:0px;background-color:#fff;border:2px #92BFB1 solid;text-align:center;")
@@ -486,7 +486,7 @@
         h5.text-white.text-center(data-aos="fade-up") Afiliación al fondo de pensiones y cesantías
 
         .row.mt-5
-          .col-md-6
+          .col-md-6.mb-4.mb-md-0
             .p-5(style="background-color:#FFA400;height:100%;")
               figure
                 img(src="@/assets/curso/tema3/34.svg" data-aos="fade-up" style="max-width:100px;")
@@ -527,11 +527,11 @@
 
     figure.m-auto.col-md-8.mt-4
       img(src="@/assets/curso/tema3/38.svg" data-aos="fade-up")
-    figcaption.mt-4(data-aos="fade-up") #[strong Nota.] Captura de pantalla tomada del portal de ingreso de Colpensiones (https://www.colpensionestransaccional.gov.co/sede_electronica/tramites/). 
+    figcaption.mt-4(data-aos="fade-up"  style="font-weight:400;") #[strong Nota.] Captura de pantalla tomada del portal de ingreso de Colpensiones (https://www.colpensionestransaccional.gov.co/sede_electronica/tramites/). 
 
     figure.m-auto.col-md-8.mt-5
       img(src="@/assets/curso/tema3/39.svg" data-aos="fade-up")
-    figcaption.mt-4(data-aos="fade-up") #[strong Nota.] Captura de pantalla tomada del portal de ingreso de Cesantías Porvenir (https://transacciones.porvenir.com.co/Personas/Paginas/default.aspx). 
+    figcaption.mt-4(data-aos="fade-up"  style="font-weight:400;") #[strong Nota.] Captura de pantalla tomada del portal de ingreso de Cesantías Porvenir (https://transacciones.porvenir.com.co/Personas/Paginas/default.aspx). 
 
     p.mt-5(data-aos="fade-up") Para el fondo de pensiones el funcionario con apoyo del área de afiliaciones de la empresa puede registrarse, como también lo puede hacer la misma empresa. Y para las cesantías el proceso de afiliación lo puede hacer también el funcionario, o con apoyo de la empresa (esto es opcional).
 
@@ -543,8 +543,8 @@
       table(style="max-width:100%;min-width:100%;")
         thead(style="border-top:none;")
           tr
-            th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;") Fondos de pensiones y/o fondos de cesantías
-            th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;") Página web para afiliación y/o consultas
+            th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;font-size:18px;") Fondos de pensiones y/o fondos de cesantías
+            th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;font-size:18px;") Página web para afiliación y/o consultas
         tbody
           tr
             td.p-4(style="border:0px;background-color:#fff;border:2px #92BFB1 solid;text-align:center;")
@@ -622,8 +622,8 @@
       table
         thead(style="border-top:none;")
           tr
-            th.p-4(style="background-color:#FFA400;border:0;") Documentos para contratación 
-            th.p-4(style="background-color:#FFA400;border:0;") Uso
+            th.p-4(style="background-color:#FFA400;border:0;font-size:18px;") Documentos para contratación 
+            th.p-4(style="background-color:#FFA400;border:0;font-size:18px;") Uso
         tbody
           tr
             td.p-4(style="border:0px;background-color:#EBEBEB;border:0;") Documento de identidad del trabajador. 
