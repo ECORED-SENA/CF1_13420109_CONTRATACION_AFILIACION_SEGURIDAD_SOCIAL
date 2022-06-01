@@ -5,11 +5,6 @@
 
     p En el siguiente diagrama se resumen los aspectos principales desarrollados con este material de formación.
 
-    .row.justify-content-center.mt-5
-      .col-lg-10.mb-5
-        figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
-
     .row.justify-content-center
       .col-lg-10.mb-5
         figure

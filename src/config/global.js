@@ -245,41 +245,41 @@ export default {
         'http://www.secretariasenado.gov.co/senado/basedoc/codigo_sustantivo_trabajo.html',
     },
     {
-      text:
+      texto:
         'Servicio Nacional de Aprendizaje – SENA. (2022). Contrato de aprendizaje 2022.',
       tipo: 'Artículos y Videos',
       link:
         'https://www.sena.edu.co/es-co/Empresarios/Paginas/contratoAprendizaje.aspx',
     },
     {
-      text:
+      texto:
         'Congreso de Colombia. (1993). Ley 100 de 1993. Por la cual se crea el sistema de seguridad social integral y se dictan otras disposiciones.',
       tipo: 'Artículos',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=5248#:~:text=Crea%20el%20sistema%20de%20seguridad%20social%20integral%20conformado%20por%20los,definen%20en%20la%20presente%20ley',
     },
     {
-      text: 'ARL Sura. (2022). Video de afiliación. [Video]. YouTube.',
+      texto: 'ARL Sura. (2022). Video de afiliación. [Video]. YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=1ygOnSrZ8Ks&t=18s&ab_channel=ARLSURA',
     },
     {
-      text:
+      texto:
         'Caja de Compensación Familiar Compensar. (2022). Video de afiliación. [Video]. YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=-zW3ABENkAM&ab_channel=CompensarColombia',
     },
     {
-      text:
+      texto:
         'Fondo de Pensiones Colpensiones. (2022). Video de afiliación. [Video]. YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=ZFE7uqZVUHU&ab_channel=Colpensiones',
     },
     {
-      text:
+      texto:
         'Fondo Nacional del Ahorro. (2022). Video de afiliación en línea. [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=4NGmMJvJAjw&ab_channel=fnaAHORRO',
@@ -298,7 +298,27 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Diego Villalobos Barreto',
+        cargo: 'Experto Temático',
+        centro: 'Regional Distrito Capital Grupo de Apoyo Administrativo - CGI',
+      },
+      {
+        nombre: 'Luz Aída Quintero Velásquez',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+      },
+      {
+        nombre: 'Alix Cecilia Chinchilla Rueda',
+        cargo: 'Asesor Metodológico',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
       },
     ],
     desarrolloProducto: [
@@ -306,53 +326,54 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Carlos Julian Ramirez Benitez',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Luis Jesús Pérez Madariaga',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Emilsen Alfonso Bautista',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

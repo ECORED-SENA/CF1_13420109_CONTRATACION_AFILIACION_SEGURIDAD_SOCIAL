@@ -52,7 +52,7 @@
     .col-md-11.m-auto.mt-5
       .cajon.color-acento-botones.p-4.mb-4(style="background-color:#FFF5E2;")
         .h4.mb-0(data-aos="fade-up") Nota aclaratoria
-        p(data-aos="fade-up") para no caer en la confusión sobre un contrato laboral y uno civil se deben mirar los tres elementos del contrato laboral y no incurrir en errores contractuales. Conforme al Código Sustantivo del Trabajo en el artículo 23 señala que son: prestación personal del servicio, continuada subordinación y retribución o remuneración del servicio.
+        p.mt-3(data-aos="fade-up") Para no caer en la confusión sobre un contrato laboral y uno civil se deben mirar los tres elementos del contrato laboral y no incurrir en errores contractuales. Conforme al Código Sustantivo del Trabajo en el artículo 23 señala que son: prestación personal del servicio, continuada subordinación y retribución o remuneración del servicio.
 
     br
     .row.mt-5
@@ -117,49 +117,49 @@
     TabsB.color-acento-contenido.mt-5
       .py-4.py-md-5(titulo="Contrato a término fijo" :icono="require('@/assets/curso/tema2/7.svg')")
         .row
-          h4 CARACTERÍSTICAS CONFORME AL CÓDIGO SUSTANTIVO DEL TRABAJO
-          .mt-3
-            p.mb-0 Cuando se hace inferior a un año no se puede renovar más de tres veces.
-            p.mb-0 Cuando su elaboración es anual se puede prorrogar las veces que la empresa lo desee.
-            p.mb-0 Su creación no puede exceder los tres años.
-            p.mb-0 Este tipo de contrato siempre se debe hacer por escrito.
-            p.mb-0 El periodo de prueba si es inferior a un año no puede superar la quinta parte del 20% del contrato y si es por el año no excederá los dos meses.
-            p.mb-0 El empleador debe avisar 30 días calendario antes si el contrato no será prorrogado, si no se entenderá como renovado.
-            p.mb-0 Si hay despido sin justa causa, al trabajador se le debe pagar como indemnización los salarios restantes a la fecha de terminación del contrato.
-            p.mb-0 Su finalización puede darse por justa causa, sin justa causa, pensión del trabajador, finalización del contrato o muerte del trabajador.
-          h4.mt-5 USOS EN LAS EMPRESAS
+          h4 Características conforme al código sustantivo del trabajo
+          ul.mt-3.ps-5(style="list-style:disc;")
+            li.mb-0 Cuando se hace inferior a un año no se puede renovar más de tres veces.
+            li.mb-0 Cuando su elaboración es anual se puede prorrogar las veces que la empresa lo desee.
+            li.mb-0 Su creación no puede exceder los tres años.
+            li.mb-0 Este tipo de contrato siempre se debe hacer por escrito.
+            li.mb-0 El periodo de prueba si es inferior a un año no puede superar la quinta parte del 20% del contrato y si es por el año no excederá los dos meses.
+            li.mb-0 El empleador debe avisar 30 días calendario antes si el contrato no será prorrogado, si no se entenderá como renovado.
+            li.mb-0 Si hay despido sin justa causa, al trabajador se le debe pagar como indemnización los salarios restantes a la fecha de terminación del contrato.
+            li.mb-0 Su finalización puede darse por justa causa, sin justa causa, pensión del trabajador, finalización del contrato o muerte del trabajador.
+          h4.mt-5 Uso en las empresas
           p.mt-3 Las empresas en Colombia utilizan este contrato para actividades permanentes. En ocasiones para motivar al personal durante un periodo y luego cambiarlo a término indefinido, y también para actividades que finalizan gestión anual o periódica.
       .py-4.py-md-5(titulo="Contrato a término indefinido" :icono="require('@/assets/curso/tema2/7.svg')")
         .row
-          h4 CARACTERÍSTICAS CONFORME AL CÓDIGO SUSTANTIVO DEL TRABAJO
-          .mt-3
-            p.mb-0 Tiene inicio y no cuenta con fecha de finalización. 
-            p.mb-0 El periodo de prueba no puede exceder los dos meses.
-            p.mb-0 Para que se finalice la relación laboral debe ser por retiro voluntario del trabajador, pensión, por justa causa o sin justa causa o muerte del trabajador.
-            p.mb-0 Si la finalización del contrato es sin justa causa, el empleador debe pagar una indemnización de 30 días el primer año laborado y para los siguientes años, una indemnización de 20 días de salario por cada año laborado.
-          h4.mt-5 USO EN LAS EMPRESAS
+          h4 Características conforme al código sustantivo del trabajo
+          ul.mt-3.ps-5(style="list-style:disc;")
+            li.mb-0 Tiene inicio y no cuenta con fecha de finalización. 
+            li.mb-0 El periodo de prueba no puede exceder los dos meses.
+            li.mb-0 Para que se finalice la relación laboral debe ser por retiro voluntario del trabajador, pensión, por justa causa o sin justa causa o muerte del trabajador.
+            li.mb-0 Si la finalización del contrato es sin justa causa, el empleador debe pagar una indemnización de 30 días el primer año laborado y para los siguientes años, una indemnización de 20 días de salario por cada año laborado.
+          h4.mt-5 Uso en las empresas
           p.mt-3 Las organizaciones en Colombia manejan mucho este tipo de contrato, ya que generan confianza en sus trabajadores brindando una estabilidad laboral.
           p.mt-3 Lo utilizan en cargos permanentes razón de ser de su actividad económica.
       .py-4.py-md-5(titulo="Contrato por obra y labor" :icono="require('@/assets/curso/tema2/7.svg')")
         .row
-          h4 CARACTERÍSTICAS CONFORME AL CÓDIGO SUSTANTIVO DEL TRABAJO
-          .mt-3
-            p.mb-0 La duración depende de la culminación de la obra o labor, razón de ser de la relación laboral.
-            p.mb-0 El periodo de prueba, si la obra es inferior a un año, no puede superar la quinta parte del 20% del contrato, y si es por el año no exceder los dos meses.
-            p.mb-0 Para que se finalice la relación laboral debe ser por retiro voluntario del trabajador, pensión, por justa causa o sin justa causa o muerte del trabajador.
-            p.mb-0 Si la finalización del contrato es sin justa causa el empleador debe pagar una indemnización proporcional al tiempo que estaba destinada la obra o labor de terminar.
-          h4.mt-5 USO EN LAS EMPRESAS
+          h4 Características conforme al código sustantivo del trabajo
+          ul.mt-3.ps-5(style="list-style:disc;")
+            li.mb-0 La duración depende de la culminación de la obra o labor, razón de ser de la relación laboral.
+            li.mb-0 El periodo de prueba, si la obra es inferior a un año, no puede superar la quinta parte del 20% del contrato, y si es por el año no exceder los dos meses.
+            li.mb-0 Para que se finalice la relación laboral debe ser por retiro voluntario del trabajador, pensión, por justa causa o sin justa causa o muerte del trabajador.
+            li.mb-0 Si la finalización del contrato es sin justa causa el empleador debe pagar una indemnización proporcional al tiempo que estaba destinada la obra o labor de terminar.
+          h4.mt-5 Uso en las empresas
           p.mt-3 Las compañías hacen uso de este contrato para actividades como construcción o labores como campañas electorales, producción de cine, televisión y demás.
           p.mt-4 #[strong Nota:] lo importante es no confundir la naturaleza del contrato y su razón de ser, ya que a veces, por desconocimiento, es mal utilizado en actividades que son permanentes en una empresa, como por ejemplo un asistente administrativo, entre otros cargos.
       .py-4.py-md-5(titulo="Contrato ocasional, accidental o transitorio" :icono="require('@/assets/curso/tema2/7.svg')")
         .row
-          h4 CARACTERÍSTICAS CONFORME AL CÓDIGO SUSTANTIVO DEL TRABAJO
-          .mt-3
-            p.mb-0 Cabe aclarar que tiene relación al contrato a término fijo frente a los tiempos y no puede ser inferior a un mes.
-            p.mb-0 El periodo de prueba no puede superar la quinta parte del 20% del contrato. 
-            p.mb-0 Para que se finalice la relación laboral debe ser por retiro voluntario del trabajador, pensión, por justa causa o sin justa causa o muerte del trabajador.
-            p.mb-0 Si se despide sin justa causa al trabajador, se le debe pagar como indemnización los salarios restantes a la fecha de terminación del contrato.
-          h4.mt-5 USO EN LAS EMPRESAS
+          h4 Características conforme al código sustantivo del trabajo
+          ul.mt-3.ps-5(style="list-style:disc;")
+            li.mb-0 Cabe aclarar que tiene relación al contrato a término fijo frente a los tiempos y no puede ser inferior a un mes.
+            li.mb-0 El periodo de prueba no puede superar la quinta parte del 20% del contrato. 
+            li.mb-0 Para que se finalice la relación laboral debe ser por retiro voluntario del trabajador, pensión, por justa causa o sin justa causa o muerte del trabajador.
+            li.mb-0 Si se despide sin justa causa al trabajador, se le debe pagar como indemnización los salarios restantes a la fecha de terminación del contrato.
+          h4.mt-5 Uso en las empresas
           p.mt-3 Se utiliza por los empresarios cuando se manejan tareas específicas que no se desarrollan en la empresa, como también para cubrir ausentismos de personal, licencias y demás.
           p.mt-4 #[strong Nota:] se puede confundir en ocasiones con contratos de obra o labor, inclusive a término fijo. Es importante identificar la verdadera necesidad de la empresa frente a sus requerimientos contractuales y de personal.
 
@@ -174,7 +174,22 @@
     .col-md-9.m-auto.mt-5
       .cajon.color-acento-botones.p-4.mb-4(style="background-color:#FFF5E2;")
         .h4.mb-0(data-aos="fade-up") Nota aclaratoria
-        p(data-aos="fade-up") Al auxilio de transporte y dotación se tiene derecho cuando el ingreso base de cotización no supera los dos salarios mínimos legales vigentes. 
+        p.mt-3(data-aos="fade-up") Al auxilio de transporte y dotación se tiene derecho cuando el ingreso base de cotización no supera los dos salarios mínimos legales vigentes.
+
+
+    .tarjeta.color-secundario.p-4.mt-5.col-md-9.m-auto(style="background-color:#0C0A3E;")
+      .row.justify-content-around.align-items-center
+        .col-4.col-sm-3.col-lg-2.text-center
+          img(src="@/assets/curso/tema2/12.svg" style="display:inline;max-width:80px")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0(style="place-self:center;")
+              p.text-white.mb-0 Para profundizar más sobre este tema, se debe consultar el #[strong Código Sustantivo del Trabajo] en la siguiente página web de la Secretaría del Senado de Colombia  
+            .col-sm-auto
+              a.boton.color-acento-botones.texto-blanco(href="http://www.secretariasenado.gov.co/senado/basedoc/codigo_sustantivo_trabajo.html" target="_blank")
+                span(style="color:#0C0A3E !important;") Ir al sitio web
+                i.fas.fa-file-download(style="color:#0C0A3E !important;")
+
 
     br
     .row.mt-5

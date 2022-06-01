@@ -32,7 +32,9 @@
 
     p(data-aos="fade-up") Durante la selección de candidatos, las empresas pueden variar tanto el orden de la gestión, como las herramientas, según lo estipule o considere, es de anotar que para una buena selección se deben implementar las siguientes acciones o procesos.
 
-    .row.mt-5.p-0.p-md-3(style="background-color:#16697A;border-radius:20px;")
+    p.mt-5(style="border-left:5px #16697A solid;padding:6px;" data-aos="fade-up") #[strong Figura 2.] Proceso de preselección en las empresas
+
+    .row.mt-4.p-0.p-md-3(style="background-color:#16697A;border-radius:20px;")
       .col-md-4(style="place-self:center;")
         figure.text-center.m-auto
           img(src="@/assets/curso/tema1/3.svg" data-aos="fade-up" style="max-width:300px;display:inline")
@@ -48,7 +50,7 @@
             h4(style="color:#12263F;") Citación del candidato para presentar pruebas.
             p(style="color:#12263F;") Pueden ser psicotécnicas, de conocimiento, personalidad, de campo, polígrafo, entre otras.
           .tarjeta.color-acento-botones.p-4.h-100(style="background-color:#D0EAE2;")
-            h4(style="color:#12263F;") Entrevistas
+            h4(style="color:#12263F;") Entrevistas.
             p(style="color:#12263F;") El candidato pasa por una o varias entrevistas que pueden ser estructuradas, no estructuradas o mixtas. Los entrevistadores pueden implementar métodos como, por ejemplo, entrevistas de panel, grupales, estudios de casos y utilizar medios telefónicos y virtuales para el desarrollo tanto de la entrevistas como de las pruebas.
           .tarjeta.color-acento-botones.p-4.h-100(style="background-color:#D0EAE2;")
             h4(style="color:#12263F;") Verificación de los datos de la hoja de vida.
@@ -69,7 +71,7 @@
         .h4.mb-0(data-aos="fade-up") Nota aclaratoria
         p(data-aos="fade-up") La mayoría de veces, los exámenes médicos se hacen después de la valoración de los resultados y para la toma de decisiones se presenta una terna de candidatos.
 
-    p.mt-5(style="border-left:5px #16697A solid;padding:6px;" data-aos="fade-up") #[strong Figura 2.] Ciclo de valoración y elección de candidatos
+    p.mt-5(style="border-left:5px #16697A solid;padding:6px;" data-aos="fade-up") #[strong Figura 3.] Ciclo de valoración y elección de candidatos
 
     figure.m-auto.text-center.col-md-11.mt-5
       img(src="@/assets/curso/tema1/4.svg" data-aos="fade-up")

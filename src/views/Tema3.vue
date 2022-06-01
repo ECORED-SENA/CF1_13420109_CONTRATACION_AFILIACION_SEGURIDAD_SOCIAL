@@ -13,8 +13,8 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/1.svg')})`}"
       )
-      .bloque-texto-g__texto.p-4
-        p.mt-4.mb-4(data-aos="fade-up") Normalmente cuando se habla de Seguridad Social en Colombia se asocia a la salud y el derecho que tienen las personas a acceder a estos servicios, ya sea porque paga, cotiza o recibe este servicio de forma subsidiada del Estado, y lo que se debe tener claro es que la salud es un derecho fundamental. Pero, #[strong ¿qué es el sistema de seguridad social?]
+      .bloque-texto-g__texto.p-5
+        p.mt-5.mb-5(data-aos="fade-up") Normalmente cuando se habla de Seguridad Social en Colombia se asocia a la salud y el derecho que tienen las personas a acceder a estos servicios, ya sea porque paga, cotiza o recibe este servicio de forma subsidiada del Estado, y lo que se debe tener claro es que la salud es un derecho fundamental. Pero, #[strong ¿qué es el sistema de seguridad social?]
 
     p.mt-5(data-aos="fade-up") #[strong(style="padding:5px;background-color:#D0EAE2;") Para responder esta pregunta lo primero que se debe conocer es que la Ley 100 de 1993] regula la seguridad social en Colombia y en la misma se establecen los mecanismos de acción y gestión frente a cualquier situación que involucre la prestación de los servicios de salud, pensión, riesgos laborales y servicios complementarios como componentes de la misma. De igual manera, ofrece una definición de la Seguridad Social en Colombia:
 
@@ -147,7 +147,7 @@
       h2#t_3_2 3.2 Afiliación a administradora de riesgos laborales
 
     .row
-      .col-md-7(style="place-self:center;")
+      .col-md-7
         p(data-aos="fade-right") Comúnmente las personas solo piensan o relacionan el concepto de ARL cuando se accidentan o tienen alguna enfermedad laboral y, aunque hace parte de unas de sus tantas funciones, es necesario saber que el propósito principal que tienen las administradoras de riesgos laborales conocida por sus siglas ARL, es trabajar mancomunadamente junto con la empresa contratante para generar estrategias de prevención y mitigación de enfermedades y accidentes, que puedan ocurrir en el ambiente de trabajo para garantizar un lugar óptimo donde el empleado pueda hacer sus actividades sin riesgos que desmejoren su calidad de vida.
       .col-md-5
         figure
@@ -155,7 +155,7 @@
 
     .cajon.color-acento-botones.p-4.mt-5(style="background-color:#FFF5E2;")
       h4(data-aos="fade-up") La afiliación de ARL
-      p(data-aos="fade-up")  se debe realizar máximo un día antes que el funcionario ingrese a laborar a la empresa para garantizar su cobertura, se debe tener claro el nivel de riesgo que se maneja en el cargo, así como el lugar de trabajo, documento de identidad, datos de residencia, EPS, fondo de pensiones y teléfono.
+      p(data-aos="fade-up") Se debe realizar máximo un día antes que el funcionario ingrese a laborar a la empresa para garantizar su cobertura, se debe tener claro el nivel de riesgo que se maneja en el cargo, así como el lugar de trabajo, documento de identidad, datos de residencia, EPS, fondo de pensiones y teléfono.
 
     p.mt-5(data-aos="fade-up") Cuando se habla de nivel de riesgo, se refiere al que está asociado a la actividad que desempeñará el funcionario y están distribuidos en niveles de 1 a 5 con un porcentaje de aporte para cada uno. En el gráfico a continuación se relacionan los niveles de riesgo con sus porcentajes de aportes respectivos:
 
@@ -312,7 +312,7 @@
               img(src='@/assets/curso/tema3/18.svg', alt='' style="display:inline;max-width:250px")
           .col-md-8(style="place-self:center;")
             p El trabajador, por medio de su EPS, escoge su Institución Prestadora de Servicio de Salud IPS, según la ubicación para recibir atención donde lo desee.
-        .row.col-md-10.m-auto(titulo="Elección EPS")
+        .row.col-md-10.m-auto(titulo="Lineamientos de ingreso")
           .col-md-4.mb-4.mb-md-0
             figure.text-center
               img(src='@/assets/curso/tema3/19.svg', alt='' style="display:inline;max-width:250px")
@@ -335,7 +335,7 @@
       table(style="max-width:100%;min-width:100%;")
         thead(style="border-top:none;")
           tr
-            th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;font-size:18px;") ARL
+            th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;font-size:18px;") EPS
             th.p-4.text-center(style="background-color:#D0EAE2;border-right:2px #92BFB1 solid;border-left:2px #92BFB1 solid;font-size:18px;") Página web para afiliación y/o consultas
         tbody
           tr
@@ -365,7 +365,7 @@
           tr
             td.p-4(style="border:0px;background-color:#fff;border:2px #92BFB1 solid;text-align:center;")
               figure.text-center.m-auto
-                img(src="@/assets/curso/tema3/24.svg" style="display:inline;max-width:150px;")
+                img(src="@/assets/curso/tema3/26.svg" style="display:inline;max-width:150px;")
             td.p-4(style="border:0px;background-color:#fff;border:2px #92BFB1 solid;text-align:center;")
               a.boton.color-acento-botones.texto-blanco(href="https://enlinea.famisanar.com.co/Portal/home.jspx " target="_blank")
                 span(style="color:#0C0A3E !important;") Visitar Portal Web
@@ -373,7 +373,7 @@
           tr
             td.p-4(style="border:0px;background-color:#fff;border:2px #92BFB1 solid;text-align:center;")
               figure.text-center.m-auto
-                img(src="@/assets/curso/tema3/25.svg" style="display:inline;max-width:150px;")
+                img(src="@/assets/curso/tema3/24.svg" style="display:inline;max-width:150px;")
             td.p-4(style="border:0px;background-color:#fff;border:2px #92BFB1 solid;text-align:center;")
               a.boton.color-acento-botones.texto-blanco(href="https://transaccional.saludtotal.com.co/Transaccional/plataforma/ingresar.aspx" target="_blank")
                 span(style="color:#0C0A3E !important;") Visitar Portal Web
@@ -381,7 +381,7 @@
           tr
             td.p-4(style="border:0px;background-color:#fff;border:2px #92BFB1 solid;text-align:center;")
               figure.text-center.m-auto
-                img(src="@/assets/curso/tema3/26.svg" style="display:inline;max-width:150px;")
+                img(src="@/assets/curso/tema3/25.svg" style="display:inline;max-width:150px;")
             td.p-4(style="border:0px;background-color:#fff;border:2px #92BFB1 solid;text-align:center;")
               a.boton.color-acento-botones.texto-blanco(href="https://corporativo.compensar.com/salud/transacciones" target="_blank")
                 span(style="color:#0C0A3E !important;") Visitar Portal Web
@@ -444,7 +444,7 @@
           tr
             td.p-4(style="border:0px;background-color:#fff;border:2px #92BFB1 solid;text-align:center;")
               figure.text-center.m-auto
-                img(src="@/assets/curso/tema3/30.svg" style="display:inline;max-width:150px;")
+                img(src="@/assets/curso/tema3/31.svg" style="display:inline;max-width:150px;")
             td.p-4(style="border:0px;background-color:#fff;border:2px #92BFB1 solid;text-align:center;")
               a.boton.color-acento-botones.texto-blanco(href="https://corporativo.compensar.com/" target="_blank")
                 span(style="color:#0C0A3E !important;") Visitar Portal Web
@@ -452,7 +452,7 @@
           tr
             td.p-4(style="border:0px;background-color:#fff;border:2px #92BFB1 solid;text-align:center;")
               figure.text-center.m-auto
-                img(src="@/assets/curso/tema3/31.svg" style="display:inline;max-width:150px;")
+                img(src="@/assets/curso/tema3/30.svg" style="display:inline;max-width:150px;")
             td.p-4(style="border:0px;background-color:#fff;border:2px #92BFB1 solid;text-align:center;")
               a.boton.color-acento-botones.texto-blanco(href="https://www.colsubsidio.com/" target="_blank")
                 span(style="color:#0C0A3E !important;") Visitar Portal Web
@@ -460,7 +460,7 @@
           tr
             td.p-4(style="border:0px;background-color:#fff;border:2px #92BFB1 solid;text-align:center;")
               figure.text-center.m-auto
-                img(src="@/assets/curso/tema3/32.svg" style="display:inline;max-width:150px;")
+                img(src="@/assets/curso/tema3/33.svg" style="display:inline;max-width:150px;")
             td.p-4(style="border:0px;background-color:#fff;border:2px #92BFB1 solid;text-align:center;")
               a.boton.color-acento-botones.texto-blanco(href="https://www.comfenalcovalle.com.co/" target="_blank")
                 span(style="color:#0C0A3E !important;") Visitar Portal Web
@@ -468,7 +468,7 @@
           tr
             td.p-4(style="border:0px;background-color:#fff;border:2px #92BFB1 solid;text-align:center;")
               figure.text-center.m-auto
-                img(src="@/assets/curso/tema3/33.svg" style="display:inline;max-width:150px;")
+                img(src="@/assets/curso/tema3/32.svg" style="display:inline;max-width:150px;")
             td.p-4(style="border:0px;background-color:#fff;border:2px #92BFB1 solid;text-align:center;")
               a.boton.color-acento-botones.texto-blanco(href="https://www.comfacundi.com.co/" target="_blank")
                 span(style="color:#0C0A3E !important;") Visitar Portal Web
@@ -497,7 +497,7 @@
               figure
                 img(src="@/assets/curso/tema3/35.svg" data-aos="fade-up" style="max-width:100px;")
               h5.mt-4.text-white(data-aos="fade-up") La afiliación
-              p.mt-4.text-white.mb-0(data-aos="fade-up") para pensiones y cesantías se hace una sola vez, es decir cuando el funcionario inicia su vida laboral o hace la solicitud de traslado de la misma, por ende, estas entidades cuentan con un asesor que hace el debido proceso en la entidad correspondiente.
+              p.mt-4.text-white.mb-0(data-aos="fade-up") Para pensiones y cesantías se hace una sola vez, es decir cuando el funcionario inicia su vida laboral o hace la solicitud de traslado de la misma, por ende, estas entidades cuentan con un asesor que hace el debido proceso en la entidad correspondiente.
 
         .mt-4.p-5(style="background-color:#D0EAE2;")
           p.mb-0(data-aos="fade-up") Si un funcionario viene laborando e ingresa a la empresa como trabajador nuevo, solo se le debe solicitar el certificado de afiliación a fondo de pensiones y cesantías para corroborar la información y hacer los debidos aportes. 
@@ -530,10 +530,12 @@
     figcaption.mt-4(data-aos="fade-up"  style="font-weight:400;") #[strong Nota.] Captura de pantalla tomada del portal de ingreso de Colpensiones (https://www.colpensionestransaccional.gov.co/sede_electronica/tramites/). 
 
     figure.m-auto.col-md-8.mt-5
-      img(src="@/assets/curso/tema3/39.svg" data-aos="fade-up")
+      img(src="@/assets/curso/tema3/39.png" data-aos="fade-up")
     figcaption.mt-4(data-aos="fade-up"  style="font-weight:400;") #[strong Nota.] Captura de pantalla tomada del portal de ingreso de Cesantías Porvenir (https://transacciones.porvenir.com.co/Personas/Paginas/default.aspx). 
 
-    p.mt-5(data-aos="fade-up") Para el fondo de pensiones el funcionario con apoyo del área de afiliaciones de la empresa puede registrarse, como también lo puede hacer la misma empresa. Y para las cesantías el proceso de afiliación lo puede hacer también el funcionario, o con apoyo de la empresa (esto es opcional).
+    p.mt-5(data-aos="fade-up") Para ver un ejemplo de #[strong afiliación a fondo de pensiones de Colpensiones], se invita observar el video tutorial que se encuentra en el material complementario. 
+
+    p.mt-4(data-aos="fade-up") Para el fondo de pensiones el funcionario con apoyo del área de afiliaciones de la empresa puede registrarse, como también lo puede hacer la misma empresa. Y para las cesantías el proceso de afiliación lo puede hacer también el funcionario, o con apoyo de la empresa (esto es opcional).
 
     h5.mt-4(data-aos="fade-up") Los portales web de las administradoras de fondos y pensiones más utilizadas por los colombianos son:
 
@@ -683,7 +685,7 @@
     .row.mt-5
       .col-md-6(style="place-self:center;")
         .cajon-b.color-primario.pt-4.pb-4.ps-3
-          p.mb-0(data-aos="fade-up") Estos documentos forman parte de la historia laboral del trabajador, que es administrada por el área de talento humano de la empresa. 
+          p.mb-0(data-aos="fade-up") Estos documentos forman parte de la #[strong historia laboral] del trabajador, que es administrada por el área de talento humano de la empresa. 
         p(data-aos="fade-up") ¡Aquí finaliza este material sobre contratación y vinculación laboral! Para fortalecer los conocimientos adquiridos, se invita a  revisar el material de apoyo compartido.
 
       .col-md-6
