@@ -23,7 +23,7 @@
     p.mt-5(style="border-left:5px #16697A solid;padding:6px;" data-aos="fade-up") #[strong Figura 1.] Ciclo de alistamiento y convocatoria
 
     figure.col-md-6.m-auto
-      img(src="@/assets/curso/tema1/2.svg" data-aos="fade-up")
+      img(src="@/assets/curso/tema1/2.png" data-aos="fade-up")
 
     Separador
 
