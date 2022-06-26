@@ -491,7 +491,7 @@
               figure
                 img(src="@/assets/curso/tema3/34.svg" data-aos="fade-up" style="max-width:100px;")
               h5.mt-4(data-aos="fade-up") El empleador
-              p.mt-4.mb-0(data-aos="fade-up") El empleador, en cuanto a la Administradora de Fondo de Pensiones, mensualmente recibe los aportes correspondientes,  mientras que por concepto de cesantías, la empresa consigna el aporte anualmente teniendo en cuenta que cada mes hace su provisión.
+              p.mt-4.mb-0(data-aos="fade-up") En cuanto a la Administradora de Fondo de Pensiones, mensualmente recibe los aportes correspondientes,  mientras que por concepto de cesantías, la empresa consigna el aporte anualmente teniendo en cuenta que cada mes hace su provisión.
           .col-md-6
             .p-5(style="background-color:#0C0A3E;height:100%;")
               figure
@@ -507,7 +507,7 @@
             figure
               img(src="@/assets/curso/tema3/36.svg" data-aos="fade-right")
           .col(style="place-self:center;")
-            p.text-white.mb-0(data-aos="fade-up") Si es su primer empleo, se debe verificar que no esté afiliado, consultando en las plataformas como RUAF, Fosyga y demás entidades. 
+            p.text-white.mb-0(data-aos="fade-up") Si es su primer empleo, se debe verificar que no esté afiliado, consultando en las plataformas como RUAF, FOSYGA y demás entidades. 
 
         .col-md-9.m-auto.row.mt-4
           .col-auto

@@ -263,7 +263,7 @@
     .col-md-10.m-auto.mt-5
       .cajon.color-acento-botones.p-4.mb-4(style="background-color:#FFF5E2;")
         .h4.mb-0(data-aos="fade-up") Recomendación:
-        p(data-aos="fade-up") sea el manejo que se le dé en la organización a los contratos es importante estar actualizando los modelos que se tienen por un abogado laboral para asegurar el cumplimiento legal y evitar sanciones o demandas.
+        p(data-aos="fade-up") Sea el manejo que se le dé en la organización a los contratos es importante estar actualizando los modelos que se tienen por un abogado laboral para asegurar el cumplimiento legal y evitar sanciones o demandas.
 
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(style="background-color:#92BFB1;")
